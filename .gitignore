@@ -1,0 +1,5 @@
+.idea
+example/example.pb.go
+example/example_hash.pb.go
+/protoc-gen-go-hash
+vendor/**/*

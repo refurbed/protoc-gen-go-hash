@@ -1,0 +1,39 @@
+# See https://golangci-lint.run/usage/configuration/#config-file
+# for all config options.
+
+# Analysis running options
+run:
+  # timeout for analysis, e.g. 30s, 5m, default is 1m
+  timeout: 10m
+
+# Settings of specific linters
+linters-settings:
+
+  govet:
+    # enable all analyzers
+    enable-all: true
+
+  gocritic:
+    enabled-checks:
+      - ruleguard
+    enabled-tags:
+      - diagnostic
+      - performance
+      - style
+    disabled-tags:
+      - experimental
+
+  cyclop:
+    max-complexity: 12
+
+# Configure set of used linters. See https://golangci-lint.run/usage/linters/
+# for all supported linters.
+linters:
+  enable-all: true
+  disable:
+    - paralleltest
+    - varnamelen
+    - forbidigo
+    - wsl
+    - exhaustivestruct
+    - exhaustruct

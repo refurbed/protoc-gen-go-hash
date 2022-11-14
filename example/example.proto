@@ -1,0 +1,12 @@
+// Copyright (c) 2022 Refurbed GmbH. All rights reserved.
+// Use of this source code is governed by an Apache-style
+// license that can be found in the LICENSE file.
+
+syntax = "proto3";
+
+package example;
+option go_package = "protoc-gen-go-hash/example";
+
+message Hello {
+  string customer_id = 1;
+}

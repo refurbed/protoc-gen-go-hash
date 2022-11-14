@@ -1,0 +1,8 @@
+// Copyright (c) 2022 Refurbed GmbH. All rights reserved.
+// Use of this source code is governed by an Apache-style
+// license that can be found in the LICENSE file.
+
+syntax = "proto3";
+
+package testdata;
+option go_package = "protoc-gen-go-hash/testdata";
