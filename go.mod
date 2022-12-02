@@ -1,4 +1,4 @@
-module github.com/refurbed/protoc-gen-go-hash
+module gitlab.com/refurbed-community/oss/protoc-gen-go-hash
 
 go 1.19
 
