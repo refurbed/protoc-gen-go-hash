@@ -19,7 +19,7 @@ collections of name/value pairs. So we are left with using [hashstructure](https
 ### Install
 In order to install the protoc-gen-go-hash plugin to use it in your projects first run:
 ```bash
-go install gitlab.com/refurbed-community/oss/protoc-gen-go-hash
+go install github.com/refurbed/protoc-gen-go-hash
 ```
 
 Then import `hashstructure` dependency in your project:

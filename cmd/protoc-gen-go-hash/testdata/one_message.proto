@@ -9,4 +9,5 @@ option go_package = "protoc-gen-go-hash/testdata";
 
 message Hello {
   string customer_id = 1;
+  optional string customer_name = 2;
 }
